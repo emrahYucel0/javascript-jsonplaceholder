@@ -1,0 +1,70 @@
+.buttons button {
+    text-align: left;
+    margin-top: 10px;
+    margin-left:150px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 5%;
+    position: relative;
+    cursor: pointer;
+    background-color: #3e8e41 !important;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons:hover {background-color: yellow};
+
+.buttons:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body {
+    transition: background-color 0.5s ease; /* Renk değişimini yumuşatmak için geçiş efekti */
+}
+
+tbody {
+    
+    
+}
+
+.addedStil {
+    background-color: #3e8e41;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+#todoBtn {
+    background-color: purple;
+    border: 1px solid purple;
+    left: 150px;
+}
+
+#postBtn {
+    background-color: tomato;
+    border: 1px solid tomato;
+    left: 175px;
+}
+
+#commentBtn {
+    background-color: gold;
+    border: 1px solid gold;
+    left: 200px
+}
+
+#albumBtn {
+    background-color: black;
+    border: 1px solid black;
+    left: 225px;
+}
+
+*/
+
+table thead {
+    display: none; /* Initially hide the table header */
+}
+

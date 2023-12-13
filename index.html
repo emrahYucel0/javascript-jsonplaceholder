@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="buttons">
+
+        <button id="todoBtn" onclick="TodoClick()">Todos</button>
+        <button id="postBtn" onclick="PostClick()">Posts</button>
+        <button id="commentBtn" onclick="CommentClick()">Comments</button>
+        <button id="albumBtn" onclick="AlbumClick()">Albums</button>
+
+    </div>
+    
+    <!--- TODOS TABLE  -->
+    <table id="todoTable">
+        <thead>
+            <tr>
+                <th>User Id</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Completed</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!--- POSTS TABLE  -->
+    <table id="postTable">
+        <thead>
+            <tr>
+                <th>User Id</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!--- COMMENTS TABLE  -->
+    <table id="commentTable">
+        <thead>
+            <tr>
+                <th>Post Id</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!--- ALBUMS TABLE  -->
+    <table id="albumTable">
+        <thead>
+            <tr>
+                <th>User Id</th>
+                <th>Id</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
